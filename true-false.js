@@ -14,9 +14,9 @@
 //  {}
 // 'false'
 
-const name = "0";
+const name = 0;
 
-if(name){
+if(name || name == 0 ){
     console.log('condition is true');
 }
 else{
